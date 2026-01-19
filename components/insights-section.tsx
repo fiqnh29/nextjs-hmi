@@ -22,7 +22,7 @@ export default function InsightsSection({ items, title, viewMoreUrl }: InsightsS
       <div className="mx-auto max-w-7xl">
         <h2 className="mb-10 text-2xl font-bold text-[#0A56C2] md:text-3xl">{title}</h2>
 
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
           {items.map((item, index) => (
             <Link
               className="group relative overflow-hidden rounded-2xl"
